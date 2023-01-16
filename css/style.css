@@ -19,6 +19,7 @@
 header{
     margin-left: 8px;
     margin-right: 8px;
+    margin-bottom: 20px;
 }
 
 header h5, header h6{
@@ -29,3 +30,45 @@ header h5, header h6{
     color: #24aae5;
 }
 
+main{
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.first-content{
+    margin-top: 20px;
+}
+
+.first-content p, .second-content p{
+    margin-bottom: 20px;
+}
+
+.highlighted{
+    background-color: yellow;
+}
+
+table{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+th{
+    background-color: #24aae5;
+    color: white;
+}
+
+.th-1, .th-2, .th-3{
+    text-align: left;
+}
+
+.th-1, .th-2{  
+    width: 25%;
+}
+
+.table-striped{
+    background-color: #b1ecf2;
+}
+
+.might-interest h4{ 
+    color: #7c7c7c;
+    margin-bottom: 10px;
+}
