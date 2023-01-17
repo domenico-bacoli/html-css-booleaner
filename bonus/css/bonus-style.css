@@ -4,7 +4,7 @@
 }
 
 header, main{
-    width: 80%;
+    max-width: 80%;
     margin: auto;
 }
 
@@ -74,7 +74,25 @@ th{
     background-color: #b1ecf2;
 }
 
-.might-interest h4{ 
+#might-interest-image{
+    width: 280px;
+    height: 180px;
+    margin-bottom: 12px;
+    padding: 12px;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+}
+
+.image-1{
+    background-image: url('../img/monitor.jpg');
+}
+
+.image-2{
+    background-image: url('../img/graph.jpg');
+}
+
+.might-interest h2{ 
     color: #7c7c7c;
     margin-bottom: 10px;
 }
